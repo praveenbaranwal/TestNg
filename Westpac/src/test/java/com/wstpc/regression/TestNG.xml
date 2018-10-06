@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="regression" parallel="false">
+  <test name="WestpacTest">
+  <parameter name="URL" value="https://westpac.co.nz"/>
+    <classes>
+      <class name="com.wstpc.regression.Assignment"/>
+    </classes>
+  </test> <!-- WestpacTest -->
+</suite> <!-- Suite -->
