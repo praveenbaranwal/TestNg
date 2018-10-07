@@ -22,10 +22,4 @@ public class Home extends HomePage{
 		ele=getCurrencyConvertor();
 		ele.click();
 	}
-
-
-
-	
-
-
 }
