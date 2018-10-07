@@ -5,7 +5,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -55,13 +54,13 @@ public class Assignment {
 		{
 			driver.switchTo().defaultContent();
 			test.log(LogStatus.PASS, "Error message populated as expected");
-			b.getScreenshot("CurrencyConv_ErrorValidation");			
+			b.getScreenshot("CurrencyConv_ErrorValidation", driver);			
 		}
 		else
 		{
 			driver.switchTo().defaultContent();
 			test.log(LogStatus.FAIL, "Error message not as expected!!");
-			b.getScreenshot("CurrencyConv_ErrorValidation");
+			b.getScreenshot("CurrencyConv_ErrorValidation", driver);
 		}
 		driver.switchTo().defaultContent();	
 	}
@@ -90,7 +89,7 @@ public class Assignment {
 		Thread.sleep(3000);
 		String ActualMsg= currencyConv.ResultMsg();
 		Assert.assertTrue(ActualMsg.contains(targetCurrency));
-		b.getScreenshot("CurrrencyConversion");
+		b.getScreenshot("CurrrencyConversion", driver);
 		driver.switchTo().defaultContent();
 	}
 			

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46558" started-at="2018-10-07T10:05:08Z" finished-at="2018-10-07T10:05:55Z">
+  <suite name="Default suite" duration-ms="41583" started-at="2018-10-07T10:41:04Z" finished-at="2018-10-07T10:41:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46558" started-at="2018-10-07T10:05:08Z" finished-at="2018-10-07T10:05:55Z">
+    <test name="Default test" duration-ms="41583" started-at="2018-10-07T10:41:04Z" finished-at="2018-10-07T10:41:45Z">
       <class name="com.wstpc.regression.Assignment">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.wstpc.regression.Assignment@ea1a8d5]" name="beforeTest" is-config="true" duration-ms="17949" started-at="2018-10-07T10:05:08Z" finished-at="2018-10-07T10:05:26Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.wstpc.regression.Assignment@ea1a8d5]" name="beforeTest" is-config="true" duration-ms="13965" started-at="2018-10-07T10:41:04Z" finished-at="2018-10-07T10:41:18Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="CurrencyConvertorErrValidation()[pri:0, instance:com.wstpc.regression.Assignment@ea1a8d5]" name="CurrencyConvertorErrValidation" duration-ms="8442" started-at="2018-10-07T10:05:26Z" finished-at="2018-10-07T10:05:35Z">
+        <test-method status="PASS" signature="CurrencyConvertorErrValidation()[pri:0, instance:com.wstpc.regression.Assignment@ea1a8d5]" name="CurrencyConvertorErrValidation" duration-ms="7542" started-at="2018-10-07T10:41:18Z" finished-at="2018-10-07T10:41:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CurrencyConvertorErrValidation -->
-        <test-method status="PASS" signature="CurrencyConversion(java.lang.String, java.lang.String)[pri:1, instance:com.wstpc.regression.Assignment@ea1a8d5]" name="CurrencyConversion" duration-ms="4718" started-at="2018-10-07T10:05:35Z" data-provider="sendData" finished-at="2018-10-07T10:05:40Z">
+        <test-method status="PASS" signature="CurrencyConversion(java.lang.String, java.lang.String)[pri:1, instance:com.wstpc.regression.Assignment@ea1a8d5]" name="CurrencyConversion" duration-ms="4467" started-at="2018-10-07T10:41:25Z" data-provider="sendData" finished-at="2018-10-07T10:41:30Z">
           <params>
             <param index="0">
               <value>
@@ -38,7 +38,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CurrencyConversion -->
-        <test-method status="PASS" signature="CurrencyConversion(java.lang.String, java.lang.String)[pri:1, instance:com.wstpc.regression.Assignment@ea1a8d5]" name="CurrencyConversion" duration-ms="5081" started-at="2018-10-07T10:05:40Z" data-provider="sendData" finished-at="2018-10-07T10:05:45Z">
+        <test-method status="PASS" signature="CurrencyConversion(java.lang.String, java.lang.String)[pri:1, instance:com.wstpc.regression.Assignment@ea1a8d5]" name="CurrencyConversion" duration-ms="5429" started-at="2018-10-07T10:41:30Z" data-provider="sendData" finished-at="2018-10-07T10:41:35Z">
           <params>
             <param index="0">
               <value>
@@ -54,7 +54,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CurrencyConversion -->
-        <test-method status="PASS" signature="CurrencyConversion(java.lang.String, java.lang.String)[pri:1, instance:com.wstpc.regression.Assignment@ea1a8d5]" name="CurrencyConversion" duration-ms="4671" started-at="2018-10-07T10:05:45Z" data-provider="sendData" finished-at="2018-10-07T10:05:49Z">
+        <test-method status="PASS" signature="CurrencyConversion(java.lang.String, java.lang.String)[pri:1, instance:com.wstpc.regression.Assignment@ea1a8d5]" name="CurrencyConversion" duration-ms="4503" started-at="2018-10-07T10:41:35Z" data-provider="sendData" finished-at="2018-10-07T10:41:40Z">
           <params>
             <param index="0">
               <value>
@@ -70,7 +70,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CurrencyConversion -->
-        <test-method status="PASS" signature="CurrencyConversion(java.lang.String, java.lang.String)[pri:1, instance:com.wstpc.regression.Assignment@ea1a8d5]" name="CurrencyConversion" duration-ms="4486" started-at="2018-10-07T10:05:49Z" data-provider="sendData" finished-at="2018-10-07T10:05:54Z">
+        <test-method status="PASS" signature="CurrencyConversion(java.lang.String, java.lang.String)[pri:1, instance:com.wstpc.regression.Assignment@ea1a8d5]" name="CurrencyConversion" duration-ms="4523" started-at="2018-10-07T10:41:40Z" data-provider="sendData" finished-at="2018-10-07T10:41:44Z">
           <params>
             <param index="0">
               <value>
@@ -86,7 +86,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CurrencyConversion -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.wstpc.regression.Assignment@ea1a8d5]" name="afterTest" is-config="true" duration-ms="1169" started-at="2018-10-07T10:05:54Z" finished-at="2018-10-07T10:05:55Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.wstpc.regression.Assignment@ea1a8d5]" name="afterTest" is-config="true" duration-ms="1131" started-at="2018-10-07T10:41:44Z" finished-at="2018-10-07T10:41:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

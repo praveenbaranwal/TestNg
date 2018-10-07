@@ -7,14 +7,10 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
 
 public class Base {
-
-	public static WebDriver driver =null;
 	
-	public void getScreenshot(String Testcasename) throws IOException
+	public void getScreenshot(String Testcasename, WebDriver driver) throws IOException
 	{
 		try {
 			Date today = new Date();
