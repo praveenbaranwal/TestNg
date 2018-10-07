@@ -7,9 +7,9 @@
       <class name="com.wstpc.regression.Assignment">
         <methods>
           <include name="CurrencyConvertorErrValidation"/>
+          <include name="beforeTest"/>
           <include name="afterTest"/>
           <include name="CurrencyConversion" invocation-numbers="0 1 2 3"/>
-          <include name="LaunchDriver"/>
         </methods>
       </class> <!-- com.wstpc.regression.Assignment -->
     </classes>

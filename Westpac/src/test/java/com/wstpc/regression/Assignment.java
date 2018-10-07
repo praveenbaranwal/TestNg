@@ -1,8 +1,11 @@
 package com.wstpc.regression;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -22,11 +25,17 @@ public class Assignment {
 	
 	@Parameters({ "URL" })
 	
+	@BeforeClass
+	public void beforeTest(String URL) {
+		System.setProperty("webdriver.chrome.driver", System. getProperty("user.dir")+"\\DriverServer\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get(URL);
+		driver.manage().window().maximize();
+	}
+	
 	@Test (priority = 0)
-	public void CurrencyConvertorErrValidation(String URL) throws Throwable{
+	public void CurrencyConvertorErrValidation() throws Throwable{
 		test = extent.startTest("CurrencyConvertor Error Validation Test", "Test to validate currency convertor null value error Message");
-		//Base b = new Base();
-		driver=b.getDriver(URL);
 		Home home=PageFactory.initElements(driver, Home.class);
 		test.log(LogStatus.PASS, "URL Launched successfully");
 		driver.manage().window().maximize();

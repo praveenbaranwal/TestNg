@@ -14,17 +14,6 @@ public class Base {
 
 	public static WebDriver driver =null;
 	
-	
-	public WebDriver getDriver(String URL) {		
-		System.setProperty("webdriver.chrome.driver", System. getProperty("user.dir")+"\\DriverServer\\chromedriver.exe");
-		driver = new ChromeDriver();
-		//String URL="https://westpac.co.nz";
-		
-		
-		driver.get(URL);
-		return driver;		
-	}
-	
 	public void getScreenshot(String Testcasename) throws IOException
 	{
 		try {
